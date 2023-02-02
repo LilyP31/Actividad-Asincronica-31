@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "./dist/my-actividad-31",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+[debug] [2023-02-01T14:22:09.223Z] ----------------------------------------------------------------------
+[debug] [2023-02-01T14:22:09.225Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ingsi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-01T14:22:09.225Z] CLI Version:   11.22.0
+[debug] [2023-02-01T14:22:09.225Z] Platform:      win32
+[debug] [2023-02-01T14:22:09.225Z] Node Version:  v16.18.0
+[debug] [2023-02-01T14:22:09.226Z] Time:          Wed Feb 01 2023 09:22:09 GMT-0500 (hora estándar de Perú)
+[debug] [2023-02-01T14:22:09.226Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-01T14:22:09.236Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-01T14:22:09.236Z] > authorizing via signed-in user (liliana.pashanace@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ingsi\Documents\Lilian\FRAMEWORK-ANGULAR\my-actividad-31\my-actividad-31
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using fir-actividad-31. 
+[debug] [2023-02-01T14:22:17.811Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-actividad-31 [none]
+[debug] [2023-02-01T14:22:18.206Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-actividad-31 200
+[debug] [2023-02-01T14:22:18.206Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-actividad-31 {"projectId":"fir-actividad-31","projectNumber":"43543674773","displayName":"firebase-Actividad-31","name":"projects/fir-actividad-31","resources":{"hostingSite":"fir-actividad-31"},"state":"ACTIVE","etag":"1_536a5797-36a4-4cd7-b4ec-483d729dfc1e"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
